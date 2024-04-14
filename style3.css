@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #4CAF50;
+  }
+  
+  .navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    margin-right: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .search-container {
+    position: relative;
+  }
+  
+  #search-bar {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .search-container button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cart-icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon-container a {
+    text-decoration: none;
+  }
+  
+  .cart-icon-container img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Styles for main content sections */
+  
+  main {
+    padding: 50px;
+  }
+  
+  .category-section,
+  .health-blog-section,
+  .contact-section {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .category-section h2,
+  .health-blog-section h2,
+  .contact-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .category-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category-container li {
+    margin-bottom: 5px;
+  }
+  
+  .health-blog-section p {
+    margin-bottom: 15px;
+  }
+  
+  .contact-section p {
+    /* Adjust for desired language*/
+  }
+  
+  .contact-section a,
+  .health-blog-section a {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Styles for footer */
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
